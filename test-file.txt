@@ -1,0 +1,8 @@
+This is a test file for the local network file transfer application.
+Testing the upload and download functionality.
+
+Features tested:
+- File upload
+- Real-time updates
+- Network status
+- File list refresh

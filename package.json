@@ -1,0 +1,24 @@
+{
+  "name": "local-network-file-transfer",
+  "version": "1.0.0",
+  "description": "Local network file transfer application with React frontend and Node.js backend",
+  "scripts": {
+    "dev": "concurrently \"cd backend && pnpm run dev\" \"cd frontend && pnpm run dev\"",
+    "install-all": "cd backend && pnpm install && cd ../frontend && pnpm install",
+    "build": "cd frontend && pnpm run build",
+    "start:backend": "cd backend && pnpm run dev",
+    "start:frontend": "cd frontend && pnpm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  },
+  "keywords": [
+    "file-transfer",
+    "react",
+    "nodejs",
+    "socket.io",
+    "encryption"
+  ],
+  "author": "",
+  "license": "MIT"
+}
